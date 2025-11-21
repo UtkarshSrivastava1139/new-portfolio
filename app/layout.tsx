@@ -15,6 +15,9 @@ export const metadata: Metadata = {
   description: "Portfolio of Utkarsh Srivastava — Full Stack Developer, AI Innovator, and UI/UX Designer specializing in scalable web applications and intelligent systems.",
   keywords: ["Full Stack Developer", "AI Innovator", "Web Developer", "MERN Stack", "Next.js", "React", "Utkarsh Srivastava"],
   authors: [{ name: "Utkarsh Srivastava" }],
+  icons: {
+    icon: "/favicon.png",
+  },
   openGraph: {
     type: "website",
     locale: "en_US",
