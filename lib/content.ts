@@ -32,12 +32,12 @@ export const portfolioData = {
     paragraphs: [
       "I'm a Computer Science Engineering student passionate about transforming ideas into impactful digital experiences.",
       "With a strong foundation in Full Stack Development, AI Integration, and UI/UX Design, I love solving real-world problems with clean, functional, and human-centered design.",
-      "I thrive at the intersection of technology, creativity, and community — building, leading, and learning through innovation and collaboration.",
+      "I thrive at the intersection of technology, creativity, and community building, leading, and learning through innovation and collaboration.",
     ],
     currentFocus: [
-      "Building scalable web applications with React & Node.js",
+      "Building scalable web applications with Next.js & Node.js",
       "Exploring AI/ML integration in web platforms",
-      "Contributing to open-source projects",
+      "Learning and solving DSA problems",
     ],
     beyondCoding: [
       "Participating in hackathons and coding competitions",
@@ -47,8 +47,8 @@ export const portfolioData = {
   },
   skills: {
     frontend: ["HTML5", "CSS3", "JavaScript", "TypeScript", "React JS", "Next JS", "Tailwind", "Bootstrap"],
-    backend: ["Node.js", "Express", "Python", "Django", "FastAPI", "Flask", "GraphQL", "MongoDB", "MySQL"],
-    ai: ["OpenAI", "TensorFlow", "Python", "YoloV8", "Gemini/GPT APIs"],
+    backend: ["Node.js", "Express", "Python", "Django", "FastAPI", "GraphQL", "MongoDB", "MySQL"],
+    ai: ["OpenAI", "TensorFlow", "Python", "YoloV8", "Gemini/GPT APIs","AI Model Integration"],
     design: ["Figma", "Photoshop", "Illustrator", "CorelDraw", "Canva"],
     tools: ["Git", "Github", "Docker", "AWS", "Postman", "Vercel", "Netlify", "VSCode", "Notion"],
   },
@@ -182,7 +182,7 @@ export const portfolioData = {
       role: "Webmaster",
       period: "2024 - Present",
       type: "leadership",
-      description: ["Led website development and technical strategy for student engagement"],
+      description: ["Led digital presence of branch and technical strategy for student engagement"],
     },
     {
       company: "EDC JSSUN",
@@ -190,6 +190,13 @@ export const portfolioData = {
       period: "2025 - Present",
       type: "leadership",
       description: ["Foundational role in setting up newly launched EDC, leading technical initiatives"],
+    },
+    {
+      company: "CSE Technical Council JSSUN",
+      role: "Student Coordinator",
+      period: "2025 - Present",
+      type: "leadership",
+      description: ["Founded and led CSE Technical Council, organizing tech events and workshops"],
     },
     {
       company: "Editorial Board JSSUN",
@@ -201,7 +208,7 @@ export const portfolioData = {
     {
       company: "Hack4Bihar",
       role: "Web Developer",
-      period: "Volunteering",
+      period: "Volunteering - Completed June 2024",
       type: "leadership",
       description: ["Contributed to official website development for national hackathon"],
     },
