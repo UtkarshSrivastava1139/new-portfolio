@@ -3,7 +3,7 @@
 import { useState, useMemo } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { Search, Filter, ArrowUpRight } from "lucide-react";
+import { Search, Filter, ArrowUpRight, ArrowLeft } from "lucide-react";
 import { portfolioData } from "@/lib/content";
 import { Container } from "@/components/layout/Container";
 import { Card } from "@/components/ui/Card";
@@ -36,6 +36,16 @@ export default function CertificatesPage() {
   return (
     <div className="min-h-screen bg-background pt-24 pb-12">
       <Container>
+        {/* Back to Home */}
+        <div className="mb-8">
+          <Link href="/">
+            <Button variant="outline" size="sm" className="gap-2 group">
+              <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
+              Back to Home
+            </Button>
+          </Link>
+        </div>
+
         {/* Header */}
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
           <div>

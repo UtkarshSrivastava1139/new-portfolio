@@ -20,7 +20,7 @@ export default function ResumePage() {
               Back to Portfolio
             </Link>
             
-            <a href="/resume.pdf" download="Utkarsh_Srivastava_Resume.pdf">
+            <a href="/resume-dec2025.pdf" download="Utkarsh_Srivastava_resume-dec2025.pdf">
               <Button className="gap-2">
                 <Download className="w-4 h-4" />
                 Download PDF
@@ -31,7 +31,7 @@ export default function ResumePage() {
           {/* PDF Viewer */}
           <div className="flex-1 w-full bg-white/5 rounded-2xl border border-white/10 overflow-hidden relative">
             <iframe
-              src="/resume.pdf"
+              src="/resume-dec2025.pdf"
               className="w-full h-full"
               title="Resume"
             />
@@ -41,7 +41,7 @@ export default function ResumePage() {
               <p className="text-secondary mb-4">
                 Your browser doesn't support viewing PDFs directly.
               </p>
-              <a href="/resume.pdf" download="Utkarsh_Srivastava_Resume.pdf">
+              <a href="/resume-dec2025.pdf" download="Utkarsh_Srivastava_resume-dec2025.pdf">
                 <Button variant="outline">Download Resume Instead</Button>
               </a>
             </div>
