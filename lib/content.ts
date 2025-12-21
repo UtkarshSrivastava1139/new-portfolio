@@ -355,7 +355,7 @@ export const portfolioData = {
       title: "YESIST12 Ambassador",
       issuer: "IEEE YESIST12",
       date: "2025",
-      image: "/certificates/yesist ambassdor.jpeg",
+      image: "/certificates/yesist12-ambassdor.png",
       category: "Ambassador",
       priority: 5
     },
@@ -428,7 +428,7 @@ export const portfolioData = {
       issuer: "IEEE",
       date: "2024",
       image: "/certificates/ieee xtreme.jpg",
-      category: "Competition",
+      category: "Ambassador",
       priority: 22
     },
     {
@@ -529,6 +529,32 @@ export const portfolioData = {
       image: "/certificates/Build with India.png",
       category: "Hackathon",
       priority: 70
+    }
+    ,{
+      id: "32",
+      title: "I'CEO Competition Participation",
+      issuer: "IEEE UP Section, Galgotias University",
+      date: "2025",
+      image: "/certificates/iceo-certificate.jpg",
+      category: "Competition",
+      priority: 1
+    },{
+      id: "33",
+      title: "Game Developer Intern - Gaurav Go Technologies",
+      issuer: "Gaurav Go Technologies",
+      date: "July 2025",
+      image: "/certificates/internship-gaurav-go.jpg",
+      category: "Internship",
+      priority: 1
+    }
+    ,{
+      id: "34",
+      title: "Finalist - HackwithUP Hackathon",
+      issuer: "Chandigarh University - TBI",
+      date: "Nov 2025",
+      image: "/certificates/hackwithup.png",
+      category: "Hackathon",
+      priority: 1
     }
   ]
 };

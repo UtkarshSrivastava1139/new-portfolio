@@ -10,11 +10,12 @@ import { Menu, X, FileText } from "lucide-react";
 import { Button } from "@/components/ui/Button";
 
 const navItems = [
-  { name: "About", href: "#about" },
-  { name: "Projects", href: "#projects" },
-  { name: "Work", href: "#experience" },
-  { name: "Achievements", href: "#achievements" },
-  { name: "Contact", href: "#contact" },
+  { name: "About", href: "/#about" },
+  { name: "Projects", href: "/#projects" },
+  { name: "Work", href: "/#experience" },
+  { name: "Achievements", href: "/#achievements" },
+  { name: "Certificates", href: "/certificates" },
+  { name: "Contact", href: "/#contact" },
 ];
 
 export function Navbar() {
